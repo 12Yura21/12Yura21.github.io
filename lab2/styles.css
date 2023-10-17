@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+img {
+    float: left;
+    width: 400px;
+    display: block;
+    margin: 20px;
+}
+button{
+    float: left;
+    display: block;
+    margin: 150px ;
+    border: solid 1px black;
+}
