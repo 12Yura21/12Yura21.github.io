@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Libre Franklin";
+}
+
+img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+a{
+	color:#fff;
+	text-align: center;
+}
+.header-block {
+	height: 60vh;
+	position: relative;
+	background: url('../images/main-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.header-block header {
+	position: relative;
+	z-index: 10;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(198, 108, 73, 0.30);
+}
+
+header .content-wrap {
+	order: 2;
+}
+
+.icons {
+	margin: 25px;
+	top:0;
+	left: 0;
+	position: absolute;
+	color: #fff;
+}
+
+.logo {
+	font-size: 35px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.menu-list {
+	margin: 40px;
+	top:0;
+	left: 0;
+	position: absolute;
+	background: transparent;
+
+}
+.i{
+	position: right;
+}
+
+.menu-list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.menu-list a {
+	font-size: 32px;
+	color: #000;
+	text-decoration: none;
+}
+
+.my_skils{
+	background-color:#FFFAF2;
+}
+ 
+.footer li{
+	margin:5vh 0px;
+	margin-left: 10rem;
+}
+
+.footer li a{
+	text-decoration: none;
+	color: #333333;
+}
+ 
+.contact_date{
+	float: left;
+	flex-direction: column;
+	display: flex;
+	font-size: 15px;
+	margin: 0 0 30px 30px;
+}
+.fot{
+	margin: 0;
+}
+.middle{
+	margin: 0 auto;
+	width: 100px;
+	position: relative;
+	display:flex;
+	flex-direction: column;	
+	text-align: center;
+}
+#main_page{
+	display: flex;
+	float: right;
+	margin-right: 20px;
+}
+
+.middle a{
+	color:black;
+	font-size: 30px;
+	width: 20px;
+	margin: 15px;
+}
+
+.prog-bar{
+	margin: 13px 0px;
+	width: 100%;
+	background-color: #f5d6ab;
+}
+.prog{
+	padding: 13px 0px;
+	background-color: #c66c49;
+	height: 100%;
+	width: 20%;
+}
+.prog1{
+	padding: 16px 0px;
+	background-color: #c66c49;
+	height: 100%;
+	width: 20%;
+}
+.prog2{
+	padding: 16px 0px;
+	background-color: #c66c49;
+	height: 100%;
+	width: 20%;
+}
+
+.content-wrap {
+	padding: 15px 20px 0px 20px;
+	max-width: 1100px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.contact{
+	color:#000;
+}
+
+.hide {
+	display: none;
+}
+
+.hide-menu {
+	position: absolute;
+	left: -9999px;
+}
+.head-text{
+	padding-top:10vh;
+	width: 100%;
+	font-size: 60px;
+	text-align: left;
+}
+.sec-text{
+	text-align: left;
+	font-size: 30px;
+}
+.main-text {
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.other-text{
+	text-align: justify;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+
+.text-box{
+	text-align: center;
+	font-size: 32px;
+	color:#fff;
+	display: inline;
+	position: relative;
+	
+}
+.text-box div:not(:last-child) {
+	margin-bottom: 30px;
+}
+.text-box div:last-child{
+	padding-bottom: 100px;
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 50%;
+	width: 100%;
+	color:#000;
+	z-index: 10;
+	background: #FFFAF2;
+}
+.footer ul{
+	width: 70%;
+	margin-right: 2%;
+}
+.footer li{
+	margin:5vh 0px;
+	margin-left: 5vw;
+}
+
+.bars-tools li p{
+	padding: 20px 0px;
+}
+
+.list-bars-container{
+	width: 60%;
+	justify-content: center;
+	margin: 0px 20%;
+	display: flex;
+}
+.skills li p{
+	font-size: 1rem;
+	padding: 20px 20px 20px 0px;
+}
+
+.sours-block{
+	display:flex;
+}
+
+
+@media screen and (min-width: 800px) {
+	header .content-wrap .logo {
+		order: 0;
+	}
+	.header-block {
+		height: 100vh;
+		position: relative;
+	}
+	.content-wrap {
+		padding:30px 0;
+	}
+	.header_item{
+		margin: 0;
+		
+	}
+	
+	.icons {
+		display: none;
+	}
+	.hide-menu {
+		position: static;
+
+	}
+	.menu-list {
+		background: transparent;
+	}
+	ul , ol	{
+		display: flex;
+	}
+	li{
+		padding:20px 20px 0px 20px;
+	}
+	.main-menu{
+		text-align: right;
+	}
+	.main-text{
+		width: 100%;
+		text-align: left;
+	}
+	.main-menu a {
+		font-size: 40px;
+		color:black;
+		
+	}
+	.menu-list li:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.logo{
+		font-size: 48px;
+		width: 50%;
+		text-align: left;
+	}
+	.list-bars-container{
+		margin: 0 0 ;
+		width: 100%;
+		flex-direction: row;
+	}
+	.skills{
+		width: 25%;
+	}
+	.list-bars-container ul{
+		display: inline;
+	}
+	.skills li{
+		padding: 0px 0px;
+	}
+	.skills li p{
+		font-size: 30px;
+		padding: 20px 20px 20px 0px;
+	}
+	.bars-tools li{
+		padding: 0px 60px 0px 0px;
+	}
+	.bars-tools li p{
+		padding: 27px 0px;
+		font-size: 30px;
+	}
+	.list-bars-container ul{
+		display: inline;
+	}
+	.menu-list {
+		background: transparent;
+	}
+	.menu-list li:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.prog{
+		width: 25%
+	}
+	.prog1{
+		width: 40%
+	}
+	.prog2{
+		width: 60%
+	}
+	.img{
+		
+		width: 50%;
+	}
+	.sours-block{
+		width: 65%;
+	}
+	.footer ul{
+		width: 65%;
+		text-align: left;
+		display: inline;
+	}
+	.footer li{
+		display: list-item;
+		margin: 0;
+		font-size: 1.5rem;
+	}
+	img {
+		width: 40%;
+	}
+	.other-text{
+		font-size: 30px;
+	}
+	.fot{
+		margin: 0 auto;
+	}
+	.contact_date{
+		margin-right: 300px;
+	}
+}
