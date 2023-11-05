@@ -3,3 +3,4 @@ function showDialogBox() {
 
     document.write("Hello, world!");
 }
+showDialogBox()
