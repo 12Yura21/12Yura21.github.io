@@ -1,6 +1,11 @@
 function showDialogBox() {
-    alert("Натисність OK");
+    var userResponse = alert("Натисність OK")
 
-    document.write("Hello, world!");
+    if (userResponse !== null) {
+        document.write("Hello, world!");
+    }
+    else{
+        document.write("Ви не натиснули ОК")
+    }
 }
 showDialogBox()
