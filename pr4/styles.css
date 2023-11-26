@@ -1,0 +1,21 @@
+#map {
+    height: 70vh;
+    width: 60%;
+    float: left;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+    gap: 60px;
+    padding: 0 20px;
+}
+.button{
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #cfdee3;
+}
